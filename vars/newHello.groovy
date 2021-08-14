@@ -4,7 +4,7 @@ def call(body) {
     stages {
       stage('hello') {
         steps {
-          sh "echo Datta Giri"
+          helloWorld("Datta Giri")
         }
       }
     }
